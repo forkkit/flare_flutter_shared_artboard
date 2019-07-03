@@ -26,14 +26,6 @@ Future<void> main() async {
   runApp(MyApp(artboardFront, artboardBack));
 }
 
-// class HeroFlareControls extends FlareControls {
-//   @override
-//   void initialize(FlutterActorArtboard artboard) {
-//     super.initialize(artboard);
-//     play("face-to-broken");
-//   }
-// }
-
 class MyApp extends StatelessWidget {
   final FlutterActorArtboard artboardFront;
   final FlutterActorArtboard artboardBack;
